@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th,tr
+        {
+            border: 2px solid black;
+            text-align: center;
+        }
+        .A1
+        {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+             <tr >
+                <td class="A1"> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th><b>Time</b></th>
+                <th><b>Monday</b></th>
+                <th><b>Tuesday</b></th>
+                <th><b>Wednesday</b></th>
+                <th><b>Thursday</b></th>
+                <th><b>Friday</b></th>
+                <th><b>Saturday</b></th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td><b>08:30 TO 09:20</b></td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+                <td>AWT(NP)</td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+                <td rowspan="2">A1:CS(NKP)-505/A<br/>A2:ADA(DR)-507/A<br/>A3:NT(AD)-507/B</td>
+                <td>AWT(NP)</td>
+                <td rowspan="2">A1:ADA(NDR)-507/A<br/>A2:SE(Ds)-507/B<br/>A3:CS(NKP)-505/A</td>
+            </tr>
+            <tr>
+                <td><b>09:20 TO 10:10</b></td>
+                <td>AWT(NP)</td>
+                <td>AWT(NP)</td>
+            </tr>
+            <tr>
+                <td><b>10:10 TO 10:20</b></td>
+                <td colspan="6" align="center"><b>RECESS</b></td>
+            </tr>
+            <tr>
+                <td><b>10:20 TO 11:10</b></td>
+                <td>AWT(NP)</td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+                <td>AWT(NP)</td>
+                <td>AWT(NP)</td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+                <td>AWT(NP)</td>
+            </tr>
+            <tr>
+                <td><b>11:10 TO 12:00</b></td>
+                <td>AWT(NP)</td>
+                <td>AWT(NP)</td>
+                <td>AWT(NP)</td>
+                <td>AWT(NP)</td>
+            </tr>
+            <tr>
+                <td><b>12:00 TO 12:20</b></td>
+                <td colspan="6" align="center"><b>RECESS</b></td>
+            </tr>
+            <tr>
+                <td><b>12:20 TO 01:10</b></td>
+                <td rowspan="2">A1:SE(KP)-505/A<br/>A2:CS(NKP)-507/B<br/>A3:ADA(VNT)-507/A</td>
+                <td>ADA(DR)</td>
+                <td rowspan="2">A1:NT(AD)-507/A<br/>A2:NT(AD)-507/B<br/>A3:SE(KP)-505/A</td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+                <td>SE(DS)</td>
+                <td rowspan="2">A1:AWT(NP)-501<br/>A2:AWT(NP)-508</td>
+            </tr>
+            <tr>
+                <td><b>01:10 TO 02:00</b></td>
+                <td>CS(NKP)</td>
+                <td>ADA(VNT)</td>
+            </tr>
+            <tr>
+                <td><b>02:00 TO 02:10</b></td>
+                <td colspan="6" align="center"><b>RECESS</b></td>
+            </tr>
+            <tr>
+                <td><b>01:10 TO 02:00</b></td>
+                <td>ADA(VNT)</td>
+                <td>NT(AD)</td>
+                <td>CNS(NKP)</td>
+                <td>ADA(DR)</td>
+                <td>CS(DS)</td>
+                <td>ABPS-II</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <table>
+        <thead>
+            <tr>
+            <th rowspan="2"><b>Subject Code</b></th>
+            <th rowspan="2"><b>Subject Name</b></th>
+            <th><b>Teaching Scheme</b></th>
+            <th rowspan="2"><b>Faculty Name</b></th>
+            </tr>
+            <tr>
+                <th>L+T+P=C</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>1010043316</td>
+                <td>Analysis and Design of Algorithm(ADA)</td>
+                <td>4+0+2=5</td>
+                <td>Prof. Vikash Tulshyan(VNT), Prof. Deepa R(DR)</td>          
+            </tr>
+           
+        </tbody>
+    </table>
+    
+</body>
+</html>
